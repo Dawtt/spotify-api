@@ -6,7 +6,8 @@ https://github.com/jonnyk20/spotify-node-react-starter-kit
 Client & server each have separate readme files with more build details.
 
 ###Running the application
-Run the servers then go to localhost:3000
+
+Run the servers then go to `localhost:3000`
 
 - Be aware there is a backend & frontend node server.
     - dependencies for each must be installed.
