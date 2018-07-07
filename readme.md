@@ -22,8 +22,9 @@ Run the servers then go to localhost:3000
         - `installclientstuff`
         - `buildclient`
         - `startclient`
+ ####Steps
  1. Edit `/auth-server/authorization_code/app.js`. Set the secret variables there at the top of the file.
- 1. Run all 5 of those scripts 
+ 1. Run all 5 of those scripts discussed above.
  1. Open `localhost:3000`, don't click anything yet
  1. Open spotify on same browser in different tab
  1. Log into spotify with your personal spotify account. (create one if needed.
