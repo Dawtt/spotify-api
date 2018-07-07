@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="729db950-9209-4e76-864b-acd3d48f39f5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
-    </list>
+    <list default="true" id="729db950-9209-4e76-864b-acd3d48f39f5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +11,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/auth-server/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -43,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="1410">
               <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
             </state>
           </provider>
@@ -134,8 +129,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="120" />
-    <option name="y" value="71" />
+    <option name="x" value="154" />
+    <option name="y" value="104" />
     <option name="width" value="1137" />
     <option name="height" value="718" />
   </component>
@@ -152,6 +147,11 @@
             <path>
               <item name="spotify-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="spotify-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spotify-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spotify-api" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spotify-api" type="b2602c69:ProjectViewProjectNode" />
@@ -232,6 +232,33 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="buildclient" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="buildclient" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="installclientstuff" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="installclientstuff" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="installserverstuff" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/auth-server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="installserverstuff" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
     <configuration name="startclient" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -253,11 +280,17 @@
     <list>
       <item itemvalue="npm.startserver" />
       <item itemvalue="npm.startclient" />
+      <item itemvalue="npm.installclientstuff" />
+      <item itemvalue="npm.buildclient" />
+      <item itemvalue="npm.installserverstuff" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.startserver" />
+        <item itemvalue="npm.installserverstuff" />
         <item itemvalue="npm.startclient" />
+        <item itemvalue="npm.buildclient" />
+        <item itemvalue="npm.installclientstuff" />
       </list>
     </recent_temporary>
   </component>
@@ -272,15 +305,16 @@
       <option name="presentableId" value="Default" />
       <updated>1530931237165</updated>
       <workItem from="1530931239369" duration="4672000" />
-      <workItem from="1530937341071" duration="1028000" />
+      <workItem from="1530937341071" duration="1443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5700000" />
+    <option name="totallyTimeSpent" value="6115000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="71" width="1137" height="718" extended-state="0" />
+    <frame x="143" y="71" width="1137" height="718" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -290,12 +324,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30745342" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30745342" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22603342" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22603342" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -388,21 +422,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auth-server/authorization_code/secretsconfig;.js" />
-    <entry file="file://$PROJECT_DIR$/auth-server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auth-server/authorization_code/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -452,8 +472,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="1410">
           <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
