@@ -1,3 +1,7 @@
+This is the client info file. 
+You are probably looking for the README in the root directory /spotify-api
+
+
 
 This project is based on:
 
