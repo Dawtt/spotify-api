@@ -1653,8 +1653,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="212" />
-    <option name="y" value="127" />
+    <option name="x" value="124" />
+    <option name="y" value="128" />
     <option name="width" value="1137" />
     <option name="height" value="718" />
   </component>
@@ -1803,16 +1803,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530931237165</updated>
-      <workItem from="1530931239369" duration="4580000" />
+      <workItem from="1530931239369" duration="4672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4580000" />
+    <option name="totallyTimeSpent" value="4672000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="212" y="127" width="1137" height="718" extended-state="0" />
-    <editor active="true" />
+    <frame x="124" y="128" width="1137" height="718" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -1830,7 +1829,7 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30745342" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30745342" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22603342" />
