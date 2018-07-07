@@ -22,11 +22,12 @@ Run the servers then go to localhost:3000
         - `installclientstuff`
         - `buildclient`
         - `startclient`
+ 1. Edit `/auth-server/authorization_code/app.js`. Set the secret variables there at the top of the file.
  1. Run all 5 of those scripts 
- 2. Open `localhost:3000`, don't click anything yet
- 3. Open spotify on same browser in different tab
- 4. Log into spotify with your personal spotify account. (create one if needed.
- 5. Go to spotify webplayer `https://open.spotify.com/`, play any arbitrary song
- 6. On `localhost:3000`, click login to spotify. it will tak you to `localhost:8888` (the backend web server), with a prettier "login to spotify" button. Click that, it should take you to the real spotify login access request for the application.
- 7. After logging in and returning to `localhost:3000`, with music playing, click the `check now playing` button. It should display the song you are listening to. If you click it again when the song is different it should update correctly as well.
+ 1. Open `localhost:3000`, don't click anything yet
+ 1. Open spotify on same browser in different tab
+ 1. Log into spotify with your personal spotify account. (create one if needed.
+ 1. Go to spotify webplayer `https://open.spotify.com/`, play any arbitrary song
+ 1. On `localhost:3000`, click login to spotify. it will tak you to `localhost:8888` (the backend web server), with a prettier "login to spotify" button. Click that, it should take you to the real spotify login access request for the application.
+ 1. After logging in and returning to `localhost:3000`, with music playing, click the `check now playing` button. It should display the song you are listening to. If you click it again when the song is different it should update correctly as well.
     
